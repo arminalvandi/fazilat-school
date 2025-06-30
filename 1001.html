@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سامانه مدرسه فضیلت</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Vazirmatn', sans-serif;
+      background: #f3f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #2a74b8;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 50px;
+      margin-left: 10px;
+    }
+    .login-btn {
+      background-color: #ffffff;
+      color: #2a74b8;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .login-btn:hover {
+      background-color: #dcefff;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .video-box {
+      background: #ddd;
+      height: 300px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+    .info-box, .news-box, .contact-box {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #2a74b8;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="لوگو مدرسه">
+      <h1>سامانه مدرسه فضیلت</h1>
+    </div>
+    <button class="login-btn" onclick="location.href='panel-selection.html'">ورود</button>
+  </header>
+
+  <section>
+    <div class="video-box">
+      🎬 تیزر مدرسه (در حال بارگذاری ویدیو...)
+    </div>
+
+    <div class="info-box">
+      <h2>درباره مدرسه</h2>
+      <p>
+        مدرسه فضیلت یک مجموعه آموزشی پیشرفته با هدف پرورش استعدادها و آموزش نسل آینده با روش‌های نوین است...
+      </p>
+    </div>
+
+    <div class="news-box">
+      <h2>اخبار و اطلاعیه‌ها</h2>
+      <ul>
+        <li>📢 ثبت‌نام سال تحصیلی جدید آغاز شد!</li>
+        <li>📅 امتحانات ترم اول از ۱۰ مهر برگزار می‌شود.</li>
+      </ul>
+    </div>
+
+    <div class="contact-box">
+      <h2>تماس با ما</h2>
+      <p>
+        آدرس: خیابان فرهنگ، پلاک ۴۲، شهر تهران<br>
+        تلفن: ۰۲۱-۱۲۳۴۵۶۷۸<br>
+        ایمیل: info@fazilat-school.ir
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © تمامی حقوق محفوظ است | مدرسه فضیلت
+  </footer>
+</body>
+</html>
